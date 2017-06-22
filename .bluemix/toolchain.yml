@@ -11,9 +11,9 @@ template:
     git branch: >-
       [master](https://github.com/TinaLindhqvist/LinksToolchain/tree/master)
 toolchain:
-  name: 'usefulLINKS-{{timestamp}}'
+  name: 'StatusInfo-{{timestamp}}'
   template:
-    getting_started: "Please enjoy the links in this Toolchain"
+    getting_started: "We hope that the Status found in this Toolchain might be useful!"
 services:
   othertool-status-bm:
     service_id: customtool
