@@ -1,0 +1,67 @@
+---
+version: '2'
+template:
+  name: "A Status Toolchain"
+  description: "This toolchain will be used in Functional System Test."
+  header: ''
+  icon: toolchainIcon_UItest.png
+  info:
+    git url: >-
+      [https://github.com/TinaLindhqvist/LinksToolchain](https://github.com/TinaLindhqvist/LinksToolchain)
+    git branch: >-
+      [master](https://github.com/TinaLindhqvist/LinksToolchain/tree/master)
+toolchain:
+  name: 'usefulLINKS-{{timestamp}}'
+  template:
+    getting_started: "Please enjoy the links in this Toolchain"
+services:
+  othertool-status-bm:
+    service_id: customtool
+    parameters:
+      name: 'Bluemix Status page'
+      description: 'Bluemix Status page'
+      type: 'Bluemix Status page'
+      lifecyclePhase: 'THINK'
+      #imageUrl: ''
+      documentationUrl: 
+      dashboard_url: 'https://console.ng.bluemix.net/status/'
+  othertool-status-github:
+    service_id: customtool
+    parameters:
+      name: 'GitHub Status page'
+      description: 'GitHub Status page'
+      type: 'GitHub Status page'
+      lifecyclePhase: 'RUN'
+      #imageUrl: ''
+      documentationUrl: 
+      dashboard_url: 'https://status.github.com/messages'
+  othertool-status-slack:
+    service_id: customtool
+    parameters:
+      name: 'Slack Status page'
+      description: 'Slack Status page'
+      type: 'Slack Status page'
+      lifecyclePhase: 'MANAGE'
+      #imageUrl: ''
+      documentationUrl: 
+      dashboard_url: 'https://status.slack.com/'
+  othertool-status-saucelabs:
+    service_id: customtool
+    parameters:
+      name: 'Sauce Labs Status page'
+      description: 'Sauce Labs Status page'
+      type: 'Sauce Labs Status page'
+      lifecyclePhase: 'OTHER'
+      #imageUrl: ''
+      documentationUrl: 
+      dashboard_url: 'https://status.saucelabs.com/'
+  othertool-status-pagerduty:
+    service_id: customtool
+    parameters:
+      name: 'PagerDuty Status page'
+      description: 'PagerDuty Status page'
+      type: 'PagerDuty Status page'
+      lifecyclePhase: 'OTHER'
+      #imageUrl: ''
+      documentationUrl: 
+      dashboard_url: ' https://status.pagerduty.com/'
