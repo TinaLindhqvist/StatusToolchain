@@ -31,7 +31,7 @@ services:
       name: 'GitHub Status page'
       description: 'GitHub Status page'
       type: 'GitHub Status page'
-      lifecyclePhase: 'RUN'
+      lifecyclePhase: 'DELIVER'
       #imageUrl: ''
       documentationUrl: 
       dashboard_url: 'https://status.github.com/messages'
@@ -41,7 +41,7 @@ services:
       name: 'Slack Status page'
       description: 'Slack Status page'
       type: 'Slack Status page'
-      lifecyclePhase: 'MANAGE'
+      lifecyclePhase: 'CULTURE'
       #imageUrl: ''
       documentationUrl: 
       dashboard_url: 'https://status.slack.com/'
@@ -51,7 +51,7 @@ services:
       name: 'Sauce Labs Status page'
       description: 'Sauce Labs Status page'
       type: 'Sauce Labs Status page'
-      lifecyclePhase: 'OTHER'
+      lifecyclePhase: 'RUN'
       #imageUrl: ''
       documentationUrl: 
       dashboard_url: 'https://status.saucelabs.com/'
@@ -61,7 +61,7 @@ services:
       name: 'PagerDuty Status page'
       description: 'PagerDuty Status page'
       type: 'PagerDuty Status page'
-      lifecyclePhase: 'OTHER'
+      lifecyclePhase: 'MANAGE'
       #imageUrl: ''
       documentationUrl: 
       dashboard_url: ' https://status.pagerduty.com/'
